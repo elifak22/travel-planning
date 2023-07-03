@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 100px;
+  width: 100%;
+}
+
+.subTeamContainer {
+  max-width: 85%;
+  margin: 3% 5%;
+  display: flex;
+  gap: 20px;
+}
+
+.subTeamContainer h4 {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(214, 19%, 93%);
+  font-size: 18px;
+}
+
+.gallery-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-div img {
+  width: 300px;
+  height: 200px;
+}
+
+.gallery-element {
+  margin: 15px;
+  border: 1px solid rgb(30, 25, 178);
+  border-style: double;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: fantasy;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-family: fantasy;
+  font-size: medium;
+  background-image: url(./sky.png);
+}
+
+header img {
+  width: 200px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 25%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(28, 31, 227);
+  border: 2px solid rgb(19, 22, 217);
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+nav a:hover {
+  color: rgb(230, 180, 173);
+  background-color: rgb(94, 26, 211);
+  gap: 5px;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header input {
+  margin-right: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 0 50px;
+}
+
+h2 {
+  text-align: center;
+  margin: 10 auto;
+}
+
+#travel-planning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: -webkit-radial-gradient();
+}
+#travel-planning img {
+  height: 50px;
+}
+
+.bahamas {
+  height: 300px;
+  width: 100%;
+  background-image: url("bah.png");
+}
+
+.mini-section {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fdfbe8;
+  max-width: 85%;
+  margin: 3% 5%;
+}
+
+.mini-section-div {
+  display: flex;
+  justify-content: center;
+  margin-top: inherit;
+}
+
+.home-section {
+  max-width: 85%;
+  margin: 3% 5%;
+}
+
+.mini-section-img {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.mini-section p {
+  width: 80%;
+  text-align: center;
+}
+
+#search-bar {
+  width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-left: 200px;
+  height: 20px;
+  outline: none;
+}
+
+#search-bar::placeholder {
+  color: #999;
+}
